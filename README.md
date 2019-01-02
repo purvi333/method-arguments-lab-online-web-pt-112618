@@ -1,4 +1,4 @@
-# Method Arguments Lab
+i# Method Arguments Lab
 
 ## Objectives
 
@@ -8,9 +8,9 @@
 2. Define a method that takes in two arguments and uses both arguments in the
    method body.
 
-## Instructions
+## Instructions'
 
-You'll be coding your methods in `lib/introduction.rb`.
+You'll be coding your methods in' `lib/introduction.rb`.
 
 #### The `#introduction` Method
 
@@ -20,7 +20,7 @@ your terminal. Let's take a look at the first error:
 ```bash
 Failures:
 
-  1) #introduction takes in an argument of a name and puts out a phrase with that name using string interpolation
+  1) #introduction takes in an argument of a name and# puts out a phrase with that name using string interpolation
      Failure/Error: expect{introduction("Josh")}.to output("Hi, my name is Josh.\n").to_stdout
      NoMethodError:
        undefined method `introduction' for #<RSpec::ExampleGroups::Introduction:0x007fdbc499a938>
@@ -39,7 +39,7 @@ Looks like our test is expecting to test a method called `#introduction`. Let's 
 
 ```ruby
 # lib/introduction.rb
-
+''''
 def introduction
 end
 ```
